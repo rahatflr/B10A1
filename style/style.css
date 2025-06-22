@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*    #0D1321    */
+/* Universal */
+
+
+.nav-div {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.resume-btn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 24px;
+    background-color: transparent;
+    border: 1 px solid #0D1321;
+    border-radius: 7px;
+}
+
+
+/* Hero section */
+
+#hero-main{
+    background-image: url(/images/Hero-bg.png);
+    padding: 65px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-contents{
+    text-align: center;
+}
+
+.hero-img{
+    padding-top: 30px;
+
+}
+
+.hero-headline{
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.hero-tagline{
+    color: #565963;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 21px 24px ;
+    background-color: #0D1321;
+    border-radius: 7px;
+    border: none;
+}
+
+
+/* web part start */
+
+
+.web-main-div{
+    margin: 70px auto;
+    padding: 80px 0 ;
+    /* background-color: #a2baf1; */
+    border-radius: 7px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.web-h2{
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.web-p{
+    color: #565963;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 15px 140px;
+}
+
+
+
+/* web-card */
+
+.dev-card{
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 20px 45px;
+    margin: 40px 140px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.dev-card-2{
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 20px 45px;
+    margin: 40px 140px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.dev-text{
+    width: 60%;
+    text-align: left;
+}
+
+.dev-img{
+    width: 40%;
+}
+
+.card-h2{
+   padding: 20px 0;
+   font-size: 24px;
+   font-weight: 800;
+}
+
+.card-p{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #565963;
+}
+
+.learn-btn{
+    margin: 20px 0;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #0D1321;
+    background-color: transparent;
+}
+/* web card end */
+
+
+
+
+
+
+/* footer */
+#footer{
+    background-color: #f7f7f7;
+}
+.footer-div{
+    align-items: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1321;
+}
+
+.social-links{
+    display: flex;
+    gap: 20px;
+}
