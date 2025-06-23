@@ -184,6 +184,186 @@
 
 
 
+
+
+/* inspire part start */
+
+.text-inspire {
+    text-align: center;
+}
+
+.inspire-h2 {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 20px 0;
+
+}
+
+.inspire-p {
+    color: #565963;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 15px 140px;
+}
+
+.iframe-thumb {
+    border-radius: 16px;
+}
+
+
+.iframe-inspire {
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #cfd0d4;
+    border-radius: 16px;
+}
+
+/* inspire part end */
+
+
+/* current target start */
+
+.current-target-text {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+
+
+.current-h2 {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+
+.current-p {
+    color: #565963;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding: 15px 140px;
+}
+
+/* current card */
+.card-div-main {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+
+.card-div {
+    background-color: #fff6f4;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.card-div-2 {
+    background-color: #f2f6fe;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.card-div-3 {
+    background-color: #fffdf2;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.current-target-h2 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0D1321;
+
+}
+
+.current-target-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #565760;
+}
+
+.current-target-a {
+    font-size: 16;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.image-card,
+.current-target-h2,
+.current-target-p,
+.current-target-a {
+    padding-bottom: 20px;
+}
+
+
+
+/* current target end */
+
+
+/* my next target part start */
+
+.next-target-text {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.next-card-main {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.next-h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #0D1321;
+    padding-bottom: 40px;
+}
+
+.next-p {
+    font-size: 16;
+    font-weight: 400;
+    color: #565760;
+    padding-bottom: 40px;
+}
+
+.next-card-h2 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #0D1321;
+    padding-bottom: 20px;
+}
+
+.next-card-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #565a64;
+    padding-bottom: 20px;
+}
+
+.next-card-a {
+    font-size: 16;
+    font-weight: 800;
+    color: #0D1321;
+    padding-bottom: 20px;
+}
+
+/* my next target part end */
+
+
+
+
 /* I need support start */
 .need-support-main {
     background-image: url(/images/handshake.jpg);
@@ -191,7 +371,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 0;
-    margin: 40px auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
     border-radius: 10px;
     position: relative;
     z-index: 1;
@@ -260,44 +441,6 @@
 }
 
 /* I need support end */
-
-
-/* inspire part start */
-
-.text-inspire{
-    text-align: center;
-}
-
-.inspire-h2 {
-    color: #0D1321;
-    font-size: 32px;
-    font-weight: 900;
-    padding: 20px 0;
-
-}
-
-.inspire-p {
-    color: #565963;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 40px;
-    padding: 15px 140px;
-}
-
-.iframe-thumb{
-    border-radius: 16px;
-}
-
-
-.iframe-inspire{
-    text-align: center;
-    padding: 30px;
-    border: 2px solid #cfd0d4;
-    border-radius: 16px;
-}
-
-/* inspire part end */
-
 
 /* footer */
 #footer {
