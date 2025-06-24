@@ -48,7 +48,7 @@
 /* Hero section */
 
 #hero-main {
-    background-image: url(/images/hero.png);
+    background-image: url(../images/herobg.png);
     padding: 65px 0;
     background-repeat: no-repeat;
     background-position: center;
@@ -366,7 +366,7 @@
 
 /* I need support start */
 .need-support-main {
-    background-image: url(/images/handshake.jpg);
+    background-image: url(../images/hand.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
